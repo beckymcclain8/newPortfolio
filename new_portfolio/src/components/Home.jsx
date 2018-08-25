@@ -17,6 +17,12 @@ class Home extends Component {
             <InfoLink 
             title= 'projects'
             />
+            <InfoLink 
+            title= 'blog'
+            />
+            <InfoLink 
+            title= 'contact'
+            />
         </div>
         
         );
