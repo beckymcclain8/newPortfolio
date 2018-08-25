@@ -4,6 +4,10 @@
 
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(10, 1fr);
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     /* max-height: 100vh; */
 }
 
@@ -12,21 +16,53 @@
     grid-row:2/4;
 
     font-family: Arial, Helvetica, sans-serif;
-    /* margin: 200px 200px; */
     font-size: 30px;
+}
 
-    /* text-align: center; */
+.bannerText {
+    color: white;
 }
 
 .myPic {
-
     grid-column: 9/11;
     grid-row: 2/4;
 
-    height: 200px;
+    height: 160px;
     width: auto;
+    margin-top: 20px;
     float: right;
-
-    /* margin-top: 150px; */
-    border-radius: 5%;
+    border-radius: 4%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: grey;
 } 
+
+.about {
+    grid-column: 2/4;
+    grid-row: 5/7;
+
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: purple;
+}
+
+.projects {
+    grid-column: 5/7;
+    grid-row: 5/7;
+
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: purple;
+}
+
+.projectList {
+    grid-column: 2/4;
+    grid-row: 5/7;
+
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: purple;
+}
