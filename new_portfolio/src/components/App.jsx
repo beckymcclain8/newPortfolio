@@ -4,6 +4,7 @@ import Home from './Home';
 import Projects from './Projects';
 import Blog from './Blog';
 import Contact from './Contact';
+import About from './About';
 import '../app.css';
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route exact path='/projects' component={Projects} />
             <Route exact path='/blog' component={Blog} />
             <Route exact path='/contact' component={Contact} />
+            <Route exact path='/about' component={About} />
         </div>
         </BrowserRouter>
         

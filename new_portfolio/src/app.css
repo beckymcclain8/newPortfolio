@@ -12,18 +12,19 @@
 }
 
 .banner {
-    grid-column: 4/8;
-    grid-row:2/4;
+    grid-column: 3/10;
+    grid-row:2/6;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Indie Flower', cursive;
     font-size: 30px;
 }
 
 .bannerText {
-    color: white;
+    color: black;
+    text-shadow: 1px 1px rgb(51, 51, 51);
 }
 
-.myPic {
+/* .myPic {
     grid-column: 9/11;
     grid-row: 2/4;
 
@@ -35,77 +36,149 @@
     border-style: solid;
     border-width: 2px;
     border-color: grey;
-} 
+}  */
+
+/* These are the links on the home page */
+
+.text {
+    color: green;
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: xx-large;
+ }
 
 .about {
     grid-column: 2/4;
-    grid-row: 5/7;
+    grid-row: 6/8;
     display: flex;
 
     align-items: center;
     justify-content: center;
     margin: 10px 40px;
-    background-color: white;
+    background-color:black;
     border-style: solid;
     border-radius: 50%;
-    border-width: 2px;
-    border-color: purple;
 }
 
-/* These are the links on the home page */
 .projects {
     grid-column: 4/6;
-    grid-row: 5/7;
+    grid-row: 6/8;
     display: flex;
 
     align-items: center;
     justify-content: center;
     margin: 10px 40px;
-    background-color: white;
+    background-color:black;
     border-style: solid;
     border-radius: 50%;
-    border-width: 2px;
-    border-color: purple;
 }
-
- .text {
-    color: green;
- }
 
 .blog {
     grid-column: 6/8;
-    grid-row: 5/7;
+    grid-row: 6/8;
     display: flex;
 
     align-items: center;
     justify-content: center;
     margin: 10px 40px;
-    background-color: white;
+    background-color:black;
     border-style: solid;
     border-radius: 50%;
-    border-width: 2px;
-    border-color: purple;
-
 }
 
 .contact {
     grid-column: 8/10;
-    grid-row: 5/7;
+    grid-row: 6/8;
     display: flex;
 
     align-items: center;
     justify-content: center;
     margin: 10px 40px;
-    background-color: white;
+    background-color:black;
     border-style: solid;
     border-radius: 50%;
-    border-width: 2px;
-    border-color: purple;
+}
 
+/* These are the links on the other pages */
+
+.about2 {
+    grid-column: 11/-1;
+    grid-row: 2/3;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin: 10px 70px;
+    background-color: black;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.projects2 {
+    grid-column: 11/-1;
+    grid-row: 3/4;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin: 10px 70px;
+    background-color: black;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.blog2 {
+    grid-column: 11/-1;
+    grid-row: 4/5;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin: 10px 70px;
+    background-color: black;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.contact2 {
+    grid-column: 11/-1;
+    grid-row: 5/6;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin: 10px 70px;
+    background-color: black;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.home {
+    grid-column: 11/-1;
+    grid-row: 6/7;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    margin: 10px 70px;
+    background-color: black;
+    border-style: solid;
+    border-radius: 50%;
 }
 
 /* These are the sections on the actual page */
 .contactMe {
+    grid-column: 2/10;
+    grid-row: 5/7;
+
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: orange;
+    opacity: .5;
+}
+
+.aboutMe {
     grid-column: 2/10;
     grid-row: 5/7;
 
