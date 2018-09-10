@@ -5,7 +5,8 @@ const Banner = props => (
         <h1 className={props.className}> {props.homeBanner}
           
         </h1>
-        <h2 className={props.classbName}>{props.homeBanner2}</h2>
+        <h2 className={props.className}>{props.homeBanner2}</h2>
+        <hr />
       </div>
     );
 
