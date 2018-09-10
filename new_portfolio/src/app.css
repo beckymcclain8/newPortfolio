@@ -3,7 +3,7 @@
     grid-gap: 3px;
 
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(50, 1fr);
+    grid-template-rows: repeat(70, 1fr);
     /* background-image: url('images/background.jpg'); */
     background-color: purple;
     /* background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 
 .banner {
     grid-column: 2/9;
-    grid-row:2/6;
+    grid-row:2/5;
 
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
@@ -221,6 +221,11 @@ border: none;
 
 /* Projects */
 
+.projTitle {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+}
+
 .projectPic {
     width: 400px;
     height: auto;
@@ -238,10 +243,70 @@ border: none;
 
 .jarvis2 {
     grid-column: 2/11;
-    grid-row: 5/8;
+    grid-row: 5/9;
 }
 
 .jarvis {
     grid-column: 2/11;
-    grid-row: 8/11;
+    grid-row: 9/13;
+}
+
+.roadTrip {
+    grid-column: 2/11;
+    grid-row: 13/17;
+}
+
+.clickyGame {
+    grid-column: 2/11;
+    grid-row: 17/20;
+}
+
+.newsScraper {
+    grid-column: 2/11;
+    grid-row: 21/24;
+}
+
+.eatDaBurger {
+    grid-column: 2/11;
+    grid-row: 25/28;
+}
+
+.bamazon {
+    grid-column: 2/11;
+    grid-row: 29/32;
+}
+
+.friendFinder {
+    grid-column: 2/11;
+    grid-row: 33/36;
+}
+
+.liri {
+    grid-column: 2/11;
+    grid-row: 37/40;
+}
+
+.trainScheduler {
+    grid-column: 2/11;
+    grid-row: 41/44;
+}
+
+.gifTastic {
+    grid-column: 2/11;
+    grid-row: 45/48;
+}
+
+.harryPotterTrivia {
+    grid-column: 2/11;
+    grid-row: 49/52;
+}
+
+.crystalCollector {
+    grid-column: 2/11;
+    grid-row: 53/56;
+}
+
+.psychicGame {
+    grid-column: 2/11;
+    grid-row: 57/60;
 }

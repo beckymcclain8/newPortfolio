@@ -6,6 +6,7 @@ const Banner = props => (
           
         </h1>
         <h2 className={props.className}>{props.homeBanner2}</h2>
+        <h2 className={props.className}>{props.homeBanner3}</h2>
         <hr />
       </div>
     );

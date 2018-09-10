@@ -1,9 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../app.css";
 
 const IndivProj = props => (
   <div className={props.className}>
+  <div className="projTitle">
+  {props.projectName}
+  </div>
     <a href= {props.website}>
       <img
         src={require("../images/jarvis2.JPG")}
