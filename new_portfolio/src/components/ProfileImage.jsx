@@ -10,6 +10,6 @@ class ProfileImage extends Component {
         />
         )
     }
-}
+} 
 
 export default ProfileImage;

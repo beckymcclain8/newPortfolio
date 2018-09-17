@@ -10,7 +10,7 @@ class Contact extends Component {
         <Banner
           className="bannerText"
           homeBanner="Contact Me"
-          homeBanner2="Let me know that you stopped by."
+          homeBanner2="Let me know you stopped by!"
         />
         {/* <ProfileImage /> */}
         <InfoLink className="about2" title="About" />
@@ -18,7 +18,18 @@ class Contact extends Component {
         <InfoLink className="blog2" title="Blog" />
         <InfoLink className="contact2" title="Contact" />
         <InfoLink className="home" title="Home" />
-        <div className="contactMe">My contact Info</div>
+        {/* <div className="resume">
+        Check out my <a href="../images/resume.pdf">resume</a>
+        </div> */}
+        <div className="gitHub">
+        <strong>Check out my</strong> <a href="http://github.com/beckymcclain8">Github Page</a>
+        </div>
+        <div className="email">
+        <strong>Email Me: </strong> beckymcclain8@gmail.com 
+        </div>
+        <div className="phone">
+        <strong>Contact Me: </strong>480-254-3081
+        </div>
       </div>
     );
   }

@@ -3,7 +3,7 @@
     grid-gap: 3px;
 
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(70, 1fr);
+    grid-template-rows: repeat(80, 1fr);
     /* background-image: url('images/background.jpg'); */
     background-color: purple;
     /* background-repeat: no-repeat;
@@ -53,7 +53,7 @@ border: none;
     color: green;
     text-decoration: none;
     font-family: 'Indie Flower', cursive;
-    font-size: xx-large;
+    font-size: x-large;
  }
 
 .about {
@@ -117,7 +117,7 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 10px 70px;
+    margin: 5px 100px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
@@ -130,7 +130,7 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 10px 70px;
+    margin: 5px 100px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
@@ -143,7 +143,7 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 10px 70px;
+    margin: 5px 100px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
@@ -156,7 +156,7 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 10px 70px;
+    margin: 5px 100px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
@@ -169,22 +169,38 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 10px 70px;
+    margin: 5px 100px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
 }
 
 /* These are the sections on the actual page */
-.contactMe {
+.resume {
     grid-column: 2/10;
-    grid-row: 5/7;
+    grid-row: 5/6;
+}
 
-    background-color: white;
-    border-style: solid;
-    border-width: 4px;
-    border-color: orange;
-    opacity: .5;
+.gitHub {
+    grid-column: 2/10;
+    grid-row: 6/7;
+}
+
+.email {
+    grid-column: 2/10;
+    grid-row: 7/8;
+}
+
+.phone {
+    grid-column: 2/10;
+    grid-row: 8/9;
+}
+
+.resume, .gitHub, .email, .phone {
+    color: black;
+    /* text-decoration: none; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
 }
 
 .aboutMe {
@@ -243,70 +259,70 @@ border: none;
 
 .jarvis2 {
     grid-column: 2/11;
-    grid-row: 5/9;
+    grid-row: 5/10;
 }
 
 .jarvis {
     grid-column: 2/11;
-    grid-row: 9/13;
+    grid-row: 10/15;
 }
 
 .roadTrip {
     grid-column: 2/11;
-    grid-row: 13/17;
+    grid-row: 15/20;
 }
 
 .clickyGame {
     grid-column: 2/11;
-    grid-row: 17/20;
+    grid-row: 20/25;
 }
 
 .newsScraper {
     grid-column: 2/11;
-    grid-row: 21/24;
+    grid-row: 25/30;
 }
 
 .eatDaBurger {
     grid-column: 2/11;
-    grid-row: 25/28;
+    grid-row: 30/35;
 }
 
 .bamazon {
     grid-column: 2/11;
-    grid-row: 29/32;
+    grid-row: 35/40;
 }
 
 .friendFinder {
     grid-column: 2/11;
-    grid-row: 33/36;
+    grid-row: 40/45;
 }
 
 .liri {
     grid-column: 2/11;
-    grid-row: 37/40;
+    grid-row: 45/50;
 }
 
 .trainScheduler {
     grid-column: 2/11;
-    grid-row: 41/44;
+    grid-row: 50/55;
 }
 
 .gifTastic {
     grid-column: 2/11;
-    grid-row: 45/48;
+    grid-row: 55/60;
 }
 
 .harryPotterTrivia {
     grid-column: 2/11;
-    grid-row: 49/52;
+    grid-row: 60/65;
 }
 
 .crystalCollector {
     grid-column: 2/11;
-    grid-row: 53/56;
+    grid-row: 65/70;
 }
 
 .psychicGame {
     grid-column: 2/11;
-    grid-row: 57/60;
+    grid-row: 70/75;
 }
