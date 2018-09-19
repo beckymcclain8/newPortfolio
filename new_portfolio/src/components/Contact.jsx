@@ -4,7 +4,7 @@ import ProfileImage from "./ProfileImage";
 import InfoLink from "./Links";
 
 class Contact extends Component {
-  render() {
+  render() { 
     return (
       <div className="container">
         <Banner
@@ -23,6 +23,9 @@ class Contact extends Component {
         </div> */}
         <div className="gitHub">
         <strong>Check out my</strong> <a href="http://github.com/beckymcclain8">Github Page</a>
+        </div>
+        <div className="linkedIn">
+        <strong>Check out my</strong> <a href="https://www.linkedin.com/in/becky-mcclain-a22b73b5/">LinkedIn Profile</a>
         </div>
         <div className="email">
         <strong>Email Me: </strong> beckymcclain8@gmail.com 

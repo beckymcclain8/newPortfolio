@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Banner from "./Banner";
 import ProfileImage from "./ProfileImage";
+import BlogInfo from './BlogInfo';
 import InfoLink from './Links';
 
 class Blog extends Component {
@@ -18,7 +19,12 @@ class Blog extends Component {
         <InfoLink className="blog2" title="Blog" />
         <InfoLink className="contact2" title="Contact" />
         <InfoLink className="home" title="Home" />
-        <div className="blogNews">Yadda Yadda Yadda</div>
+        <BlogInfo 
+          date="9.19.18"
+          blogTitle="New Blogger!"
+          blogWords="I've never done this blogging thing, but I thought I'd give it a try!  Check back
+          here to see what I've been up to.  Get updates on my current projects, see articles I've been reading, etc."
+        />
       </div>
     );
   }
