@@ -5,7 +5,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(80, 1fr);
     /* background-image: url('images/background.jpg'); */
-    background-color: purple;
+    background-color: rgb(245, 187, 245);
     /* background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
@@ -23,6 +23,7 @@
 .bannerText {
     color: black;
     text-shadow: 1px 1px rgb(51, 51, 51);
+    margin-left: 30px;
 }
 
 
@@ -31,6 +32,7 @@ height: 3px;
 /* color: black; */
 background-color: black;
 border: none;
+/* margin-left: 30px; */
 }
 
 /* .myPic {
@@ -50,10 +52,11 @@ border: none;
 /* These are the links on the home page */
 
 .text {
-    color: green;
+    color: purple;
     text-decoration: none;
     font-family: 'Indie Flower', cursive;
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight: bold;
  }
 
 .about {
@@ -117,7 +120,7 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 5px 100px;
+    margin: 5px 70px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
@@ -130,7 +133,7 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 5px 100px;
+    margin: 5px 70px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
@@ -143,7 +146,7 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 5px 100px;
+    margin: 5px 70px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
@@ -156,7 +159,7 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 5px 100px;
+    margin: 5px 70px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
@@ -169,7 +172,7 @@ border: none;
 
     align-items: center;
     justify-content: center;
-    margin: 5px 100px;
+    margin: 5px 70px;
     background-color: black;
     border-style: solid;
     border-radius: 50%;
@@ -270,7 +273,7 @@ border: none;
 }
 
 .projectDescription {
-    color: white;
+    color: black;
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family: 'Raleway', sans-serif;
     font-size: large;
